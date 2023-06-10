@@ -1,0 +1,103 @@
+.pane {
+  -fx-background-color: #f2f2f2;
+}
+.root {
+  -fx-font-family: "Roboto Medium";
+  display: flex;
+  flex-direction: column;
+}
+
+vboxMainLbl {
+  -fx-font-family: "Roboto Medium";
+  -fx-font-size: 25;
+}
+
+.vboxMenu {
+  -fx-background-color: #3c3c3e;
+}
+
+.mainLabel {
+  -fx-font-family: "Roboto Medium";
+  -fx-font-size: 25;
+}
+
+.subLabels {
+  -fx-font-size: 15;
+}
+
+.button {
+  -fx-font-size: 16;
+  -fx-padding: 10 30 10 30;
+  -fx-background-color: #3c3e3d;
+  -fx-border-radius: 10 30 10 30;
+}
+
+.button:hover {
+  -fx-background-color: #2e2e2e;
+}
+
+.button:focused {
+  -fx-background-color: #2e2e2e;
+}
+
+.comboBoxMoeda .text,
+.comboBoxMoeda {
+  -fx-background-radius: 9;
+  -fx-font-size: 16;
+  -fx-background-color: #3c3c3e;
+  -fx-fill: #ffffff;
+}
+
+.comboBoxMoeda .list-view .list-cell {
+  -fx-background-color: #3c3c3e;
+  -fx-color: #ffffff;
+}
+
+.comboBoxMoeda .list-view {
+  -fx-background-insets: 0;
+  -fx-padding: 0;
+}
+
+.comboBoxMoeda .list-view .list-cell:hover {
+  -fx-background-color: #2e2e2e;
+}
+
+.comboBoxMoeda:hover {
+  -fx-background-color: #2e2e2e;
+}
+
+.comboBoxMoeda .arrow,
+.comboBoxMoeda .arrow-button {
+  -fx-background-color: transparent;
+}
+
+.conversionTextField {
+  -fx-background-radius: 9;
+  -fx-font-size: 16;
+  -fx-background-color: #3c3c3e;
+  -fx-text-fill: #ffffff;
+}
+
+.conversionTextField:hover {
+  -fx-background-color: #2e2e2e;
+}
+
+.conversionTextField:focused {
+  -fx-background-color: #2e2e2e;
+}
+
+#converterBtn {
+  padding: 0 0 0 0;
+  -fx-background-radius: 9;
+}
+
+.conversionLbl {
+  -fx-font-family: "Roboto Medium";
+  -fx-font-size: 15;
+  -fx-background-color: #3c3c3e;
+  -fx-background-radius: 9;
+}
+
+.currencyCode {
+  -fx-font-size: 15;
+}
